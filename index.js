@@ -1,9 +1,7 @@
 // Write your code here
-function multiply(num1, num2) {
-    num1 = 2;
-    num2 = 31;
-    const res = num1 * num2;
-    return res;
+function multiply(num1=2, num2=31) {
+    const multiply = num1 * num2;
+    return multiply;
 }
 
 function random() {
