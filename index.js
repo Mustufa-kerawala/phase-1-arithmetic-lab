@@ -9,20 +9,20 @@ function multiply(num1, num2) {
 function random() {
 
     const randomNos = Math.random() * 10;
-    const result = Math.round(randomNos);
-    if(Number.isInteger(result)) {
-        return result;
+    const random = Math.round(randomNos);
+    if(Number.isInteger(random)) {
+        return random;
     }
 } 
 
 function mod(num3, num4) {
     num3 = 16;
     num4 = 6;
-    let res = num3 % num4;
-    return res;
+    let mod = num3 % num4;
+    return mod;
 }
 
 function max() {
-    const maxNos = Math.max(5, 10, 15, 20);
-    return maxNos;
+    const max = Math.max(5, 10, 15, 20);
+    return max;
 }
